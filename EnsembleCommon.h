@@ -27,7 +27,6 @@ static inline long myclock()
 #define IMAGE_HEIGHT_VIA_ETH		480
 
 #define NETWORK_PORT_CON 4000		//Control Network Port
-#define NETWORK_PORT_IMG 4100		//Image Network Port
 
 enum JobType
 {	
