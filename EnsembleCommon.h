@@ -18,6 +18,9 @@ static inline long myclock()
 #define DB_PATH_PREFIX_TOOL			"ensemble_tool_"
 #define DB_PATH_PREFIX_OPTION		"ensemble_option_"
 
+#define INTERFACE
+#define IN
+#define OUT
 
 #define RAD_TO_DEG		(180.0/CV_PI)
 #define DEG_TO_RAD		(CV_PI/180.0)
