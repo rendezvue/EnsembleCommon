@@ -145,6 +145,7 @@ enum ImageExtOption
 	IMAGE_THUMBNAIL 		= 0x00008000,
 	IMAGE_ALL_AREA 			= 0x00004000,
 	IMAGE_ICON				= 0x00002000,
+	IMAGE_ORI_SIZE			= 0x00001000
 };
 
 enum HistogramUseOption
