@@ -134,7 +134,8 @@ enum GetImageOption
 enum ImageTypeOption
 {
     IMAGE_RGB888		= 0x00000001,
-	IMAGE_YUV420 		= 0x00000002
+	IMAGE_YUV420 		= 0x00000002,
+	IMAGE_JPG	 		= 0x00000004
 };
 
 enum ImageExtOption
