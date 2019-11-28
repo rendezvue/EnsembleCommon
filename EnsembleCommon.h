@@ -17,6 +17,8 @@ static inline long myclock()
 #define DB_PATH_PREFIX_JOB			"ensemble_job_"
 #define DB_PATH_PREFIX_TOOL			"ensemble_tool_"
 #define DB_PATH_PREFIX_OPTION		"ensemble_option_"
+#define DB_FILE_NAME				"ensemble_job.rdv"
+
 
 #define INTERFACE
 #define IN
