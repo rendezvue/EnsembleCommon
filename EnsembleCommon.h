@@ -85,6 +85,16 @@ typedef struct _Source
 	cv::Mat vga ;
 } Source;
 
+typedef struct _ImageBuf
+{
+	unsigned char* p_buf = NULL ;
+	unsigned int buf_length = 0 ;
+	
+	unsigned int image_width = 0 ;
+	unsigned int image_height = 0 ;
+	int image_type = 0 ;
+} ImageBuf;
+
 enum DrawOption
 {
 	DRAW_OPTION_COLOR	= 0x01,
